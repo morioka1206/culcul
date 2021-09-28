@@ -1,8 +1,8 @@
 <template>
   <div class="calc">
     <h1 class="title">calculator</h1>
-    <!-- decimal.jsを使い、javascriptの計算の誤差によるエラーを防止 -->
-    <div class="result box" style="text-align: right">{{Decimal(showNum)}}</div>
+  
+    <div class="result box" style="text-align: right">{{showNum}}</div>
       <div class="clear">
       <button @click="clearCurrent" class="button is-danger is-medium">C</button>
       <button @click="clearAll" class="button is-danger is-medium">AC</button>
